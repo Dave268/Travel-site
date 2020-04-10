@@ -10,6 +10,10 @@
         font-weight: 500;
     }
 
+    &--blue {
+        color: $mainBlue;
+    }
+
     &__icon {
         display: block;
         margin-left: auto;
@@ -19,6 +23,8 @@
             margin-right: 0.5rem;
             display: inline;
             margin-bottom: 0;
+            position: relative;
+            top: 8px;
         }
     }
 }

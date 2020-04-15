@@ -21,6 +21,7 @@
     &__button-container {
         @mixin atMedium {
             float: right;
+            margin-top: 3px;
         }
     }
 
